@@ -139,7 +139,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="onMenTapped:" destination="eAn-JT-3pb" eventType="touchUpInside" id="2u8-Iw-23V"/>
+                                            <action selector="onMenTapped:" destination="eAn-JT-3pb" eventType="touchUpInside" id="O1E-Pi-K0u"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.64999997615814209" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bF-U7-kMq" customClass="BorderButton" customModule="Swoosh" customModuleProvider="target">
@@ -153,7 +153,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="onWomenTapped:" destination="eAn-JT-3pb" eventType="touchUpInside" id="nMK-Q5-h3v"/>
+                                            <action selector="onWomenTapped:" destination="eAn-JT-3pb" eventType="touchUpInside" id="oJs-y9-xtk"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.64999997615814209" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJk-kO-n68" customClass="BorderButton" customModule="Swoosh" customModuleProvider="target">
@@ -167,23 +167,23 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="onCoedTapped:" destination="eAn-JT-3pb" eventType="touchUpInside" id="t9O-1G-I5U"/>
+                                            <action selector="onCoedTapped:" destination="eAn-JT-3pb" eventType="touchUpInside" id="iba-vJ-L9V"/>
                                         </connections>
                                     </button>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" alpha="0.64999997615814209" contentMode="scaleAspectFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3AT-cO-4F2" customClass="BorderButton" customModule="Swoosh" customModuleProvider="target">
-                                <rect key="frame" x="16" y="708" width="343" height="50"/>
+                                <rect key="frame" x="15" y="708" width="343" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="jgh-N0-uEz"/>
+                                    <constraint firstAttribute="height" constant="50" id="GGC-bb-uPv"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="onNextButtonTapped:" destination="eAn-JT-3pb" eventType="touchUpInside" id="qnl-oh-wTX"/>
+                                    <action selector="onNextButtonTapped:" destination="eAn-JT-3pb" eventType="touchUpInside" id="gfV-5h-oEU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UNI-YG-J9n">
@@ -204,26 +204,22 @@
                             <constraint firstItem="UNI-YG-J9n" firstAttribute="top" secondItem="asx-vR-Gyi" secondAttribute="top" constant="10" id="93c-td-PFd"/>
                             <constraint firstItem="yeJ-XP-cKq" firstAttribute="leading" secondItem="asx-vR-Gyi" secondAttribute="leading" constant="112" id="CIy-6a-edJ"/>
                             <constraint firstItem="2ja-wh-VAz" firstAttribute="top" secondItem="yeJ-XP-cKq" secondAttribute="bottom" constant="50" id="E6X-97-fw7"/>
-                            <constraint firstItem="asx-vR-Gyi" firstAttribute="bottom" secondItem="3AT-cO-4F2" secondAttribute="bottom" constant="20" id="JCg-qc-dPe"/>
+                            <constraint firstItem="asx-vR-Gyi" firstAttribute="bottom" secondItem="3AT-cO-4F2" secondAttribute="bottom" constant="20" id="I13-mI-ZqT"/>
+                            <constraint firstItem="asx-vR-Gyi" firstAttribute="trailing" secondItem="3AT-cO-4F2" secondAttribute="trailing" constant="17" id="M4d-US-TO4"/>
                             <constraint firstAttribute="bottom" secondItem="Hia-2A-ja7" secondAttribute="bottom" id="MBP-DW-vOu"/>
                             <constraint firstItem="asx-vR-Gyi" firstAttribute="trailing" secondItem="2ja-wh-VAz" secondAttribute="trailing" constant="16" id="OC7-Y9-j3e"/>
                             <constraint firstItem="UNI-YG-J9n" firstAttribute="leading" secondItem="asx-vR-Gyi" secondAttribute="leading" constant="16" id="Sb5-si-n0c"/>
+                            <constraint firstItem="3AT-cO-4F2" firstAttribute="leading" secondItem="asx-vR-Gyi" secondAttribute="leading" constant="15" id="YIg-8C-HAW"/>
                             <constraint firstItem="Hia-2A-ja7" firstAttribute="top" secondItem="vFe-ke-RqZ" secondAttribute="top" id="dTC-MR-WRm"/>
                             <constraint firstItem="yeJ-XP-cKq" firstAttribute="top" secondItem="asx-vR-Gyi" secondAttribute="top" constant="20" id="ebD-Fa-WRc"/>
                             <constraint firstItem="yeJ-XP-cKq" firstAttribute="centerX" secondItem="2ja-wh-VAz" secondAttribute="centerX" id="emw-cS-FPs"/>
                             <constraint firstItem="2ja-wh-VAz" firstAttribute="leading" secondItem="asx-vR-Gyi" secondAttribute="leading" constant="16" id="naL-7b-RNy"/>
-                            <constraint firstItem="3AT-cO-4F2" firstAttribute="leading" secondItem="asx-vR-Gyi" secondAttribute="leading" constant="16" id="oll-Fr-6de"/>
-                            <constraint firstItem="asx-vR-Gyi" firstAttribute="trailing" secondItem="3AT-cO-4F2" secondAttribute="trailing" constant="16" id="pcd-KN-SkW"/>
                             <constraint firstItem="Hia-2A-ja7" firstAttribute="trailing" secondItem="asx-vR-Gyi" secondAttribute="trailing" id="yhF-EM-z0V"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="asx-vR-Gyi"/>
                     </view>
                     <connections>
-                        <outlet property="coedButton" destination="tJk-kO-n68" id="WHT-qH-GrZ"/>
-                        <outlet property="menButton" destination="NNE-Y4-9Qc" id="bMy-uF-PY6"/>
-                        <outlet property="nextButton" destination="3AT-cO-4F2" id="VX4-it-LcN"/>
                         <outlet property="view" destination="Hia-2A-ja7" id="CZD-kV-Iwd"/>
-                        <outlet property="womenButton" destination="2bF-U7-kMq" id="Hsk-ZV-y69"/>
                         <segue destination="08f-Ha-j2T" kind="show" identifier="leagueToFinish" id="aip-8P-rOn"/>
                     </connections>
                 </viewController>
