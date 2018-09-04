@@ -40,7 +40,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="eAn-JT-3pb" kind="show" identifier="LandingToLeague" id="mwp-pG-IDe"/>
+                                    <action selector="onGetStartedButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9rU-TT-Eqy"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ON GOING ALL OUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5f-IC-hN6">
@@ -88,6 +88,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="view" destination="eNo-Ho-YQR" id="KQK-8s-HYI"/>
+                        <segue destination="eAn-JT-3pb" kind="show" identifier="welcomeToLeague" id="Tr9-TE-czt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -170,7 +174,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="08f-Ha-j2T" kind="show" identifier="LeagueToSkill" id="r62-m2-M62"/>
+                                    <action selector="onNextButtonTapped:" destination="eAn-JT-3pb" eventType="touchUpInside" id="qnl-oh-wTX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UNI-YG-J9n">
@@ -205,6 +209,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="asx-vR-Gyi"/>
                     </view>
+                    <connections>
+                        <outlet property="view" destination="Hia-2A-ja7" id="CZD-kV-Iwd"/>
+                        <segue destination="08f-Ha-j2T" kind="show" identifier="leagueToFinish" id="aip-8P-rOn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jn1-XT-cO3" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="esC-D3-aTO" userLabel="Exit" sceneMemberID="exit"/>
@@ -234,6 +242,9 @@
                                 <state key="normal" title="Finish">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="onFinishtapped:" destination="08f-Ha-j2T" eventType="touchUpInside" id="Ljn-Kd-NkZ"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="4Ey-OS-Jyc">
                                 <rect key="frame" x="0.0" y="64" width="375" height="90"/>
@@ -313,6 +324,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1aD-ME-QHh"/>
                     </view>
+                    <connections>
+                        <outlet property="view" destination="iGB-xR-AUF" id="7Ms-kz-gfj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ajx-4h-Gy2" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="sXr-By-Izy" userLabel="Exit" sceneMemberID="exit"/>

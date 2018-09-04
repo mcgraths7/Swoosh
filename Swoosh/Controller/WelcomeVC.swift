@@ -21,6 +21,9 @@ class WelcomeVC: UIViewController {
         
     }
     
+    @IBAction func onGetStartedButtonTapped(_ sender: BorderButton) {
+        performSegue(withIdentifier: "welcomeToLeague", sender: self)
+    }
     
     
 }

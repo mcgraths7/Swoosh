@@ -19,7 +19,9 @@ class LeagueVC: UIViewController {
     @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue) {
         
     }
-
+    @IBAction func onNextButtonTapped(_ sender: BorderButton) {
+        performSegue(withIdentifier: "leagueToFinish", sender: self)
+    }
 
 
 }
