@@ -138,6 +138,9 @@
                                         <state key="normal" title="Mens">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onMenTapped:" destination="eAn-JT-3pb" eventType="touchUpInside" id="2u8-Iw-23V"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.64999997615814209" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bF-U7-kMq" customClass="BorderButton" customModule="Swoosh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="70" width="343" height="50"/>
@@ -149,6 +152,9 @@
                                         <state key="normal" title="Womens">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onWomenTapped:" destination="eAn-JT-3pb" eventType="touchUpInside" id="nMK-Q5-h3v"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.64999997615814209" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJk-kO-n68" customClass="BorderButton" customModule="Swoosh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="140" width="343" height="50"/>
@@ -160,10 +166,13 @@
                                         <state key="normal" title="Co-Ed">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onCoedTapped:" destination="eAn-JT-3pb" eventType="touchUpInside" id="t9O-1G-I5U"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" alpha="0.64999997615814209" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3AT-cO-4F2" customClass="BorderButton" customModule="Swoosh" customModuleProvider="target">
+                            <button opaque="NO" alpha="0.64999997615814209" contentMode="scaleAspectFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3AT-cO-4F2" customClass="BorderButton" customModule="Swoosh" customModuleProvider="target">
                                 <rect key="frame" x="16" y="708" width="343" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -210,7 +219,11 @@
                         <viewLayoutGuide key="safeArea" id="asx-vR-Gyi"/>
                     </view>
                     <connections>
+                        <outlet property="coedButton" destination="tJk-kO-n68" id="WHT-qH-GrZ"/>
+                        <outlet property="menButton" destination="NNE-Y4-9Qc" id="bMy-uF-PY6"/>
+                        <outlet property="nextButton" destination="3AT-cO-4F2" id="VX4-it-LcN"/>
                         <outlet property="view" destination="Hia-2A-ja7" id="CZD-kV-Iwd"/>
+                        <outlet property="womenButton" destination="2bF-U7-kMq" id="Hsk-ZV-y69"/>
                         <segue destination="08f-Ha-j2T" kind="show" identifier="leagueToFinish" id="aip-8P-rOn"/>
                     </connections>
                 </viewController>
@@ -231,7 +244,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" alpha="0.64999997615814209" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="38j-Yu-GvA" customClass="BorderButton" customModule="Swoosh" customModuleProvider="target">
+                            <button opaque="NO" alpha="0.64999997615814209" contentMode="scaleAspectFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="38j-Yu-GvA" customClass="BorderButton" customModule="Swoosh" customModuleProvider="target">
                                 <rect key="frame" x="16" y="708" width="343" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
