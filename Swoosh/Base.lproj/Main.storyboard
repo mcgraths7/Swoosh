@@ -81,10 +81,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="bgImg" destination="eNo-Ho-YQR" id="2wl-a7-TWu"/>
-                        <outlet property="swoosh" destination="2Lo-Ti-Peh" id="laX-vt-78e"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
